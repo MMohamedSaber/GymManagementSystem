@@ -22,13 +22,22 @@ namespace gymsystemProject
         public Form1()
         {
             InitializeComponent();
-            userList = new UserList();
-            HomeUserPage Home = new HomeUserPage();
-            addUserControl(Home);
+
+            frmHome frm = new frmHome();
+            LoadFormIntoPanel(frm);
 
 
         }
-
+        private void LoadFormIntoPanel(Form frm)
+        {
+            frm.TopLevel = false;          // Prevent the form from being top-level
+            frm.FormBorderStyle = FormBorderStyle.None; // Remove the border (optional)
+            frm.AutoScaleMode = AutoScaleMode.Dpi;
+            frm.Dock = DockStyle.Fill;     // Dock the form inside the panel
+            PanelContainer.Controls.Clear();       // Clear any existing controls in the panel
+            PanelContainer.Controls.Add(frm);      // Add the form to the panel
+            frm.Show();                    // Display the form
+        }
         private void addUserControl(UserControl uc)
         {
             PanelContainer.Controls.Clear();
@@ -42,8 +51,11 @@ namespace gymsystemProject
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            HomeUserPage Home = new HomeUserPage();
-            addUserControl(Home);
+           // HomeUserPage Home = new HomeUserPage();
+           // addUserControl(Home);
+
+            frmHome frm = new frmHome();
+            LoadFormIntoPanel(frm);
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)

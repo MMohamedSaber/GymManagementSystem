@@ -10,13 +10,12 @@ using System.Windows.Forms;
 
 namespace gymsystemProject
 {
-    public partial class HomeUserPage : UserControl
+    public partial class frmHome : Form
     {
-        public HomeUserPage()
+        public frmHome()
         {
             InitializeComponent();
         }
-
 
         private void btnTeleLink_Click(object sender, EventArgs e)
         {
@@ -35,10 +34,15 @@ namespace gymsystemProject
         {
             linkLabel1.LinkVisited = true;
             System.Diagnostics.Process.Start("https://github.com/MMohamedSaber");
-               
+
         }
 
         private void HomeUserPage_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmHome_Load(object sender, EventArgs e)
         {
 
         }
