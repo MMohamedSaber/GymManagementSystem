@@ -60,15 +60,21 @@ namespace gymsystemProject
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            AddUser AddTraining = new AddUser(userList.dataGridView1);
-            addUserControl(AddTraining);
+          // AddUser AddTraining = new AddUser(userList.dataGridView1);
+         // addUserControl(AddTraining);
+
+
+            frmAddNewTrainee frm = new frmAddNewTrainee();
+            LoadFormIntoPanel(frm);
         }
+
 
         private void btnList_Click_1(object sender, EventArgs e)
         {
           
             addUserControl(userList);
         }
+
 
         
     }
