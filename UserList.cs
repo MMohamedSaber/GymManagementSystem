@@ -12,19 +12,17 @@ namespace gymsystemProject
 {
     public partial class UserList : UserControl
     {
-
-        public DataGridView dataGridView1;
-        public UserList()
-        {
-            InitializeComponent();
-            dataGridView1 = new DataGridView();
+        //public UserList()
+        //{
+        //    InitializeComponent();
+        //    //dataGridView1 = new DataGridView();
                           
-        }
+        //}
 
-        public DataGridView TrainerListView
-        {
-            get { return this.dataGridView1; }
-        }
+        //public DataGridView TrainerListView
+        //{
+        //   // get { return this.dataGridView1; }
+        //}
 
 
 

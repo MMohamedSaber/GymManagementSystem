@@ -66,6 +66,7 @@
             this.btnTeleLink.ShadowDecoration.Parent = this.btnTeleLink;
             this.btnTeleLink.Size = new System.Drawing.Size(38, 37);
             this.btnTeleLink.TabIndex = 8;
+            this.btnTeleLink.Click += new System.EventHandler(this.btnTeleLink_Click_1);
             // 
             // btnInLink
             // 
@@ -81,6 +82,7 @@
             this.btnInLink.ShadowDecoration.Parent = this.btnInLink;
             this.btnInLink.Size = new System.Drawing.Size(38, 37);
             this.btnInLink.TabIndex = 9;
+            this.btnInLink.Click += new System.EventHandler(this.btnInLink_Click_1);
             // 
             // btnXlink
             // 
@@ -96,6 +98,7 @@
             this.btnXlink.ShadowDecoration.Parent = this.btnXlink;
             this.btnXlink.Size = new System.Drawing.Size(38, 37);
             this.btnXlink.TabIndex = 10;
+            this.btnXlink.Click += new System.EventHandler(this.btnXlink_Click_1);
             // 
             // pictureBox1
             // 
@@ -162,7 +165,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmHome";
             this.Text = "frmHome";
-            this.Load += new System.EventHandler(this.frmHome_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -72,7 +72,11 @@ namespace gymsystemProject
         private void btnList_Click_1(object sender, EventArgs e)
         {
           
-            addUserControl(userList);
+            // addUserControl(userList);
+           
+            
+            frmListTrainenees frm = new frmListTrainenees();    
+            LoadFormIntoPanel(frm);
         }
 
 

@@ -77,6 +77,10 @@ namespace gymsystemProject
         {
             string record = string.Empty;
 
+            frmListTrainenees Frm=new frmListTrainenees();
+            int ClientsNumber = Frm.GetNumberOfTrainee();
+  
+             record += (++ClientsNumber).ToString() + ",";
             // Concatenate trainee's full name
             record += $"{tbFirstName.Text},{tbMidName.Text},{tbLastName.Text},";
 
