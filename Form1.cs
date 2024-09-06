@@ -79,7 +79,11 @@ namespace gymsystemProject
             LoadFormIntoPanel(frm);
         }
 
+        private void btnSetting_Click(object sender, EventArgs e)
+        {
+            frmUpdateAndDelete frm=new frmUpdateAndDelete();
+            LoadFormIntoPanel(frm);
 
-        
+        }
     }
 }

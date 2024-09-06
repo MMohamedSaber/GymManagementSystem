@@ -31,14 +31,14 @@
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.PanelContainer = new System.Windows.Forms.Panel();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.btnSetting = new Guna.UI2.WinForms.Guna2Button();
             this.btnList = new Guna.UI2.WinForms.Guna2Button();
             this.btnAdd = new Guna.UI2.WinForms.Guna2Button();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.PanelContainer = new System.Windows.Forms.Panel();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -72,24 +72,6 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(100, 488);
             this.guna2CustomGradientPanel1.TabIndex = 0;
             // 
-            // PanelContainer
-            // 
-            this.PanelContainer.BackColor = System.Drawing.Color.White;
-            this.PanelContainer.Location = new System.Drawing.Point(112, 0);
-            this.PanelContainer.Name = "PanelContainer";
-            this.PanelContainer.Size = new System.Drawing.Size(792, 503);
-            this.PanelContainer.TabIndex = 2;
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.BorderRadius = 30;
-            this.guna2Elipse1.TargetControl = this;
-            // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.BorderRadius = 10;
-            this.guna2Elipse2.TargetControl = this.PanelContainer;
-            // 
             // btnSetting
             // 
             this.btnSetting.BackColor = System.Drawing.Color.Transparent;
@@ -112,6 +94,7 @@
             this.btnSetting.Size = new System.Drawing.Size(51, 50);
             this.btnSetting.TabIndex = 0;
             this.btnSetting.UseTransparentBackground = true;
+            this.btnSetting.Click += new System.EventHandler(this.btnSetting_Click);
             // 
             // btnList
             // 
@@ -196,6 +179,24 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            // 
+            // PanelContainer
+            // 
+            this.PanelContainer.BackColor = System.Drawing.Color.White;
+            this.PanelContainer.Location = new System.Drawing.Point(112, 0);
+            this.PanelContainer.Name = "PanelContainer";
+            this.PanelContainer.Size = new System.Drawing.Size(792, 503);
+            this.PanelContainer.TabIndex = 2;
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 30;
+            this.guna2Elipse1.TargetControl = this;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.BorderRadius = 10;
+            this.guna2Elipse2.TargetControl = this.PanelContainer;
             // 
             // Form1
             // 

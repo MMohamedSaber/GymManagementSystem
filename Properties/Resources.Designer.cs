@@ -63,6 +63,16 @@ namespace gymsystemProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _checked {
+            get {
+                object obj = ResourceManager.GetObject("checked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap analytics {
             get {
                 object obj = ResourceManager.GetObject("analytics", resourceCulture);
@@ -106,6 +116,16 @@ namespace gymsystemProject.Properties {
         internal static System.Drawing.Bitmap artist_white {
             get {
                 object obj = ResourceManager.GetObject("artist-white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boy {
+            get {
+                object obj = ResourceManager.GetObject("boy", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +206,16 @@ namespace gymsystemProject.Properties {
         internal static System.Drawing.Bitmap Folder1 {
             get {
                 object obj = ResourceManager.GetObject("Folder1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap girl {
+            get {
+                object obj = ResourceManager.GetObject("girl", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -57,6 +57,12 @@
     <Compile Include="AddUser.Designer.cs">
       <DependentUpon>AddUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Card.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Card.Designer.cs">
+      <DependentUpon>Card.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dash_Bord.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -87,6 +93,12 @@
     <Compile Include="frmListTrainenees.Designer.cs">
       <DependentUpon>frmListTrainenees.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUpdateAndDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateAndDelete.Designer.cs">
+      <DependentUpon>frmUpdateAndDelete.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomeUserPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -104,6 +116,9 @@
     <EmbeddedResource Include="AddUser.resx">
       <DependentUpon>AddUser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Card.resx">
+      <DependentUpon>Card.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dash_Bord.resx">
       <DependentUpon>Dash_Bord.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmListTrainenees.resx">
       <DependentUpon>frmListTrainenees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateAndDelete.resx">
+      <DependentUpon>frmUpdateAndDelete.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomeUserPage.resx">
       <DependentUpon>HomeUserPage.cs</DependentUpon>
@@ -276,6 +294,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\github.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

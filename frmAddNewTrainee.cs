@@ -193,5 +193,10 @@ namespace gymsystemProject
         {
             MessageBox.Show("Hello, this is confirming the addition.");
         }
+
+        private void notifyIcon1_MouseDoubleClick_1(object sender, MouseEventArgs e)
+        {
+
+        }
     }
 }
